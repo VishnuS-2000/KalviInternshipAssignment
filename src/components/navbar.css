@@ -1,0 +1,28 @@
+.navbar__main{
+
+    position: absolute;
+    min-width:50%;
+    top:10%;
+    left:18%;
+    z-index: 50;
+    
+    
+
+
+}
+
+.navbar__options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer
+
+    
+    
+}
+
+
+
+@media  screen and (max-width:) {
+    
+}

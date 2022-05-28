@@ -1,0 +1,54 @@
+.education__main{
+    width :100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+
+
+
+.education__header{
+    flex:0.30;
+    position: relative;
+   
+}
+
+.education__header > h1{
+    font-size: 4rem;
+    position: absolute;
+    top:10px;
+    right: -10px;
+    line-height: 5rem;
+    
+
+
+    
+}
+
+.education__content{
+  
+    padding-top: 2rem;
+    flex: 0.50 auto;
+   
+    
+
+}
+.education__description{
+    width: 600px;
+}
+
+.education__description >h1{
+color: #95CD41;
+
+}
+
+.education__description >h4{
+    margin-top: 5px;
+}
+.education__description >p{
+    margin: 10px 0;
+}

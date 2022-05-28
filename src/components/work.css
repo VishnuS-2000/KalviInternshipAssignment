@@ -1,0 +1,49 @@
+.work__main{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work__header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.work__header>p{
+    margin: 50px 0;
+}
+
+.project__gallery{
+    display: grid;
+    grid-template-columns: repeat(3,0.6fr);
+    column-gap:10vw;
+    row-gap: 5vh;
+    padding: 1rem 0;
+   
+}
+
+.project__card{
+    position: relative;
+}
+
+.project__card>p{
+    margin: 10px 0;
+    font-weight: bold;
+
+}
+
+.project-link{
+    color: #95CD41;
+    cursor: pointer;
+}
+
+.marker{
+    width:30px;
+    height:40px;
+    background-color: #95CD41;
+    position: absolute;
+    top:-10px;
+    left:10px;
+}

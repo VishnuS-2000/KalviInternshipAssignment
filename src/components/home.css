@@ -1,0 +1,67 @@
+.main{
+
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    align-items: flex-end;
+    min-height: 80vh;
+}
+
+.background__box{
+
+background: #95CD41;
+min-width: 250px;
+width: 15vw;
+height: 60%;
+position: absolute;
+top:0;
+right:200px;
+flex: 0.4;
+
+}
+
+.profile-image{
+
+    position: absolute;
+    min-width:300px;
+    width:20vw;
+    bottom: -120px;
+    left: 80px;
+ 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex:0.45;
+    margin: 6rem;
+    justify-items: flex-end;
+    height: 80%;
+    
+}
+
+.content > h1{
+    font-size: 3rem;
+}
+
+.content >p:nth-child(2){
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.content >p:nth-child(3){
+    margin-top: 25px;
+    font-size: 1.1rem;
+}
+
+.btn-home{
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    width:150px;
+    padding: 0.8rem 1rem;
+    margin-top: 30px;
+    border-radius: 5px;
+    color:#fff;
+    border: none;
+    background-color: #95CD41;
+}
