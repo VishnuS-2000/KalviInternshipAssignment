@@ -1,4 +1,4 @@
-import react from "react"
+
 import "./achievements.css"
 
 export const Achievements=()=>{
@@ -6,7 +6,7 @@ export const Achievements=()=>{
 
 
 
-    return <div className="achievements__main">
+    return <div className="achievements__main" id="achievements">
 
     <div className="achivements__description">
     
@@ -37,7 +37,7 @@ export const Achievements=()=>{
     </div>
 
 
-    <div className="achievements-card">
+    <div className="achievements-card" >
     <div className="line"></div>
     <p>Currently, taking up “ProGrad
     Junior Certification Program”. Links

@@ -15,7 +15,7 @@ export const Hobbies=()=>{
 
 
 
-    return <div className="hobbies__main">
+    return <div className="hobbies__main" id="hobbies">
 
     <div className="hobbies__header">
     

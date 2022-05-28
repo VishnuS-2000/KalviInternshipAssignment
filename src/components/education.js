@@ -1,4 +1,4 @@
-import react from "react"
+
 import background from "../Assets/Images/bg.png"
 import "./education.css"
 
@@ -8,7 +8,7 @@ export const Education=()=>{
 
 
 
-    return <div className="education__main">
+    return <div className="education__main" id="education">
 
         <div className="education__header">
         <img src={background}/>

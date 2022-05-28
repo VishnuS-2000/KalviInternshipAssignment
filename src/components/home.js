@@ -11,7 +11,7 @@ return <div className="main">
 </div>
 
 
-<div className="content">
+<div className="content" id="home">
 
 <h1>Rachel Green</h1>
 <p>Born and brought up in San Francisco, California, I am an aquarian

@@ -10,7 +10,7 @@ export const Footer=()=>{
 
 
 
-    return <div className="footer__main">
+    return <div className="footer__main" id="contact">
 
         <div className="footer__content">
             <h1>Contact</h1>
